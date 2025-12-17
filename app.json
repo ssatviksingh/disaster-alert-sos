@@ -12,6 +12,12 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "extra": {
+      "API_URL": "10.0.2.2:4000",
+      "eas": {
+        "projectId": "8046bc0e-ce1e-43c9-869f-d923e51c69dc"
+      }
+    },
     "ios": {
       "supportsTablet": true
     },
@@ -21,10 +27,16 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.satvikk_k.disasteralertsos"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-notifications"
+      ]
+    ]
   }
 }
