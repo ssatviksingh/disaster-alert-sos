@@ -110,13 +110,17 @@ npm install
 ```
 
 ### Run the app
+```bash
 npx expo start
+```
 
 ### 🔑 Environment Variables
 Create a .env file in the root:
-
+```bash
 API_BASE_URL=http://YOUR_BACKEND_URL
+
 JWT_SECRET=your_secret_key
+```
 
 ### 🧪 Demo Credentials
 Email: user@example.com
